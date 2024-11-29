@@ -64,7 +64,7 @@ export default function example() {
 			textureLoader,
 			scene,
 			geometry: planeGeometry,
-			imageSrc: `./images/0${Math.ceil(Math.random() * 5)}.jpg`,
+			imageSrc: `/images/0${Math.ceil(Math.random() * 5)}.jpg`,
 			x: spherePositionArray[i],
 			y: spherePositionArray[i + 1],
 			z: spherePositionArray[i + 2],
